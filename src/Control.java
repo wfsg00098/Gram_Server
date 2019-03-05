@@ -7,6 +7,7 @@ public class Control {
     static Map<String, Connect> Connections = new HashMap<>();
     static ServerSocket ss;
     static ServerSocket ss2;
+
     public static void main(String[] args) {
         System.out.println("服务端启动中...");
         db = new Database();
