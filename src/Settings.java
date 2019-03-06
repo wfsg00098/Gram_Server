@@ -1,5 +1,5 @@
 class Settings {
-    static final String DB_URL = "jdbc:mysql://localhost:3306/?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&autoReconnect=true";
     static final String DB_USER = "";
     static final String DB_PASS = "";
     static final int LISTEN_PORT = 49999;
